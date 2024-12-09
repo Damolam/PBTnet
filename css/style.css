@@ -250,6 +250,74 @@ legend {
   color: inherit;
   white-space: normal; }
 
+   /* new style for hero background */
+   .hero-bg-3 {
+    background-image: url(/images/img-loading1.jpg)
+}
+
+.hero-item {
+  padding-top: 250px;
+  padding-bottom: 250px;
+  position: relative
+}
+
+@media only screen and (min-width: 768px) and (max-width:991px) {
+  .hero-item {
+      padding-top:120px;
+      padding-bottom: 120px
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width:767px) {
+  .hero-item {
+      padding-top:120px;
+      padding-bottom: 120px
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width:479px) {
+  .hero-item {
+      padding-top:120px;
+      padding-bottom: 120px
+  }
+}
+
+/* new style for hero background */
+
+/* Extra */
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/img-loading1.jpg);
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: left;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: right;
+  cursor: pointer;
+}
+
+.hero-text button:hover {
+  background-color: #555;
+  color: white;
+}
+/* Extra */
+
 progress {
   vertical-align: baseline; }
 
@@ -1777,7 +1845,7 @@ h1, h2, h3, h4, h5,
   padding: 0; }
   @media (max-width: 991.98px) {
     .ftco-navbar-light {
-      background: #233e62 !important;
+      background: #02142b !important;
       position: relative;
       top: 0;
       padding: 10px 15px; } }
@@ -2975,6 +3043,8 @@ textarea.form-control {
 .contact-section .contact-form {
   width: 100%; }
 
+ 
+
 .block-9 h2 {
   font-size: 24px;
   font-weight: 500;
@@ -3075,7 +3145,9 @@ textarea.form-control {
 
 .search-form {
   background: #fafafa;
-  padding: 10px; }
+  padding: 10px;
+  height: 20px;
+ }
   .search-form .form-group {
     position: relative;
     margin-bottom: 0; }
