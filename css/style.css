@@ -2413,11 +2413,13 @@ h1, h2, h3, h4, h5,
   background-position: center center;
   height: 275px;
   position: relative;
-  display: block; }
+  display: block;
+  border-radius: 3%;
+ }
 
 .blog-entry {
   width: 100%;
-  border: 4px solid #d1ebf9; }
+ }
   @media (min-width: 768px) {
     .blog-entry {
       margin-bottom: 30px; } }
